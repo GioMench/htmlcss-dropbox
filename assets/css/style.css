@@ -8,10 +8,6 @@
     background-color: burlywood;
 }
 
-.debug.enter-in-contact {
-    height: 500px;
-    background-color: yellow;
-}
 
 .debug.more-operations {
     height: 400px;
@@ -189,19 +185,25 @@ h1{
 .img-hallway{
     display: block;
     width: 500px;
+    padding:2px;
 }
 
 .partner{
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:15px;
+    margin-top: 40px;
 }
 
 .find-partner{
     padding: 5px;
+    width:150px;
+    background-color: var(--drop-light);
+    border-width: 1px;;
 }
 
 .link-partner{
     text-decoration: none;
     margin:10px;
+    color: black;
 }
