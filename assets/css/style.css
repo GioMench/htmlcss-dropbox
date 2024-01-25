@@ -1,9 +1,6 @@
 /*region debug*/
 
-.debug.jumbotron {
-    background-color: var(--drop-primary);
-    height: 500px;
-}
+
 
 
 .debug.bussines-plans {
@@ -123,19 +120,17 @@ body {
 /*end region header*/
 
 /*region main*/
+.debug.jumbotron {
+    background-color: var(--drop-primary);
+    height: 500px;
+}
 
 h1{
     font-size: 60px;
     padding: 70px;
 }
 
-.container-flex{
-    display: flex;
-    flex-direction: row;
-    padding: 70px;
-}
-
-.debug.container-l{
+.container-l{
     width: 80%;
     height: 500px;
     max-width: 1200px;
@@ -143,19 +138,24 @@ h1{
     box-sizing: border-box;
 }
 
-.debug.free-trial{
-    width: 90px;
-    height:110px;
-    background-color: aqua;
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    gap:15px;
+    box-sizing: border-box;
+}
+
+.free-trial{
     flex-grow: 1;
 }
 
 .imagine{
-    width: 120px;
-    height: 150px;
-    background-color: antiquewhite;
     flex-grow: 2;
     box-sizing: border-box;
 }
 
-
+.img-jumbo{
+    display: block;
+    width: 750px;
+}
