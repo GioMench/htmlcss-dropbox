@@ -14,10 +14,6 @@
     background-color: coral;
 }
 
-.debug.mile-team {
-    height: 500px;
-    background-color: chocolate;
-}
 
 .debug.company {
     height: 300px;
@@ -63,6 +59,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+--main{
+    display: flex;
+    flex-direction: column;
+   
+}/*capire se utile*/
 
 
 /* region header*/
@@ -173,7 +174,7 @@ h1{
 /*end region jumbotron*/
 
 
-/*end region enter-in-contact*/
+/*end region bussines-plans*/
 
 .container-m{
     width: 60%;
@@ -207,3 +208,22 @@ h1{
     margin:10px;
     color: black;
 }
+
+/*end region enter-in-contact*/
+
+/*end region more-operation*/
+
+.mile-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-clients{
+    font-size: x-small;
+}
+
+
+/*end region mile-team*/
