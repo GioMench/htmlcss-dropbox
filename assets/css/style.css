@@ -1,3 +1,54 @@
+/*region debug*/
+
+.debug.jumbotron{
+    background-color: var(--drop-primary);
+    height: 500px;
+}
+
+.debug.bussines-plans{
+    height: 800px;
+    background-color: burlywood;
+}
+
+.debug.enter-in-contact{
+    height: 500px;
+    background-color:yellow;
+}
+
+.debug.more-operations{
+    height: 400px;
+    background-color: coral;
+}
+
+.debug.mile-team{
+    height: 500px;
+    background-color: chocolate;
+}
+
+.debug.company{
+    height: 300px;
+    background-color: cornflowerblue;
+}
+
+.debug.try-it{
+    height: 300px;
+    background-color: cadetblue;
+}
+
+.debug.faq{
+    height: 400px;
+    background-color: crimson;
+}
+
+.debug.more-links{
+    height: 200px;
+    background-color: blue;
+}
+
+.debug.language{
+    height: 80px;
+    background-color: blueviolet;
+}
 /*region utility*/
 :root{
     --drop-primary:#b5d1e7;
@@ -15,4 +66,11 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+/* region header*/
+
+.container-l{
+    height: 30px;
+    background-color: aqua;
 }
