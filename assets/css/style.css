@@ -5,6 +5,14 @@
     height: 500px;
 }
 
+.debug.container-l{
+    width: 80%;
+    height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
 .debug.bussines-plans {
     height: 800px;
     background-color: burlywood;
@@ -117,4 +125,13 @@ body {
     text-decoration: none;
     color: white;
     margin: 6px;
+}
+
+/*end region header*/
+
+/*region main*/
+
+h1{
+    font-size: 60px;
+    padding: 70px;
 }
