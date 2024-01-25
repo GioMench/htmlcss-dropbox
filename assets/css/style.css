@@ -1,3 +1,12 @@
+/*region utility*/
+:root{
+    --drop-primary:#b5d1e7;
+    --drop-light:#fffefe;
+    --drop-accent:#0061ff;
+    --drop-dark:#010100;
+}
+
+/*region common*/
 *{
     margin: 0;
     padding: 0;
