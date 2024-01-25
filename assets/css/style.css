@@ -74,7 +74,47 @@ body {
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
+.top-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px
+}
+
+.logo{
+    padding:15px;
+}
+
+.list-row{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap:15px;
+    font-size: 13px;
+}
+
+.list-menu{
+    list-style: none;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: black;
+}
+
+.start{
+    background-color: var(--drop-accent);
+    border:0px;
+    padding: 6px;
+    margin-right: 5px;
+}
+
+.link-menu-start{
+    text-decoration: none;
+    color: white;
+    margin: 6px;
+}
