@@ -1,76 +1,80 @@
 /*region debug*/
 
-.debug.jumbotron{
+.debug.jumbotron {
     background-color: var(--drop-primary);
     height: 500px;
 }
 
-.debug.bussines-plans{
+.debug.bussines-plans {
     height: 800px;
     background-color: burlywood;
 }
 
-.debug.enter-in-contact{
+.debug.enter-in-contact {
     height: 500px;
-    background-color:yellow;
+    background-color: yellow;
 }
 
-.debug.more-operations{
+.debug.more-operations {
     height: 400px;
     background-color: coral;
 }
 
-.debug.mile-team{
+.debug.mile-team {
     height: 500px;
     background-color: chocolate;
 }
 
-.debug.company{
+.debug.company {
     height: 300px;
     background-color: cornflowerblue;
 }
 
-.debug.try-it{
+.debug.try-it {
     height: 300px;
     background-color: cadetblue;
 }
 
-.debug.faq{
+.debug.faq {
     height: 400px;
     background-color: crimson;
 }
 
-.debug.more-links{
+.debug.more-links {
     height: 200px;
     background-color: blue;
 }
 
-.debug.language{
+.debug.language {
     height: 80px;
     background-color: blueviolet;
 }
+
 /*region utility*/
-:root{
-    --drop-primary:#b5d1e7;
-    --drop-light:#fffefe;
-    --drop-accent:#0061ff;
-    --drop-dark:#010100;
+:root {
+    --drop-primary: #b5d1e7;
+    --drop-light: #fffefe;
+    --drop-accent: #0061ff;
+    --drop-dark: #010100;
 }
 
 /*region common*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 /* region header*/
 
-.container-l{
-    height: 30px;
-    background-color: aqua;
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
