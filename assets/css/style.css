@@ -10,7 +10,19 @@
     height: 500px;
     max-width: 1200px;
     margin: auto;
-    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+
+.container-flex{
+    width: 60%;
+    margin:auto;
+    height: 50px;
+    position: absolute;
+}
+.debug.free-trial{
+    width: 90px;
+    height:110px;
+    background-color: aqua;
 }
 
 .debug.bussines-plans {
