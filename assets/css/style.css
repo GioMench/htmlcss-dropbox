@@ -67,6 +67,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+p{
+    font-size:13px;
+}
+
 /* region header*/
 
 .menu {
@@ -120,9 +124,9 @@ body {
 /*end region header*/
 
 /*region main*/
-.debug.jumbotron {
+.jumbotron {
     background-color: var(--drop-primary);
-    height: 500px;
+    height: 650px;
 }
 
 h1{
@@ -148,6 +152,14 @@ h1{
 
 .free-trial{
     flex-grow: 1;
+}
+
+.trial{
+    background-color: var(--drop-accent);
+    color: white;
+    padding:10px;
+
+    border: none;
 }
 
 .imagine{
