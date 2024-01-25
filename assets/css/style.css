@@ -67,9 +67,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-p{
-    font-size:13px;
-}
+
 
 /* region header*/
 
@@ -167,7 +165,7 @@ h1{
     font-size: 35px;
 }
 
-.imagine{
+.imagine-g2{
     flex-grow: 2;
     box-sizing: border-box;
 }
@@ -175,4 +173,35 @@ h1{
 .img-jumbo{
     display: block;
     width: 680px;
+}
+/*end region jumbotron*/
+
+
+/*end region enter-in-contact*/
+
+.container-m{
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.img-hallway{
+    display: block;
+    width: 500px;
+}
+
+.partner{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.find-partner{
+    padding: 5px;
+}
+
+.link-partner{
+    text-decoration: none;
+    margin:10px;
 }
