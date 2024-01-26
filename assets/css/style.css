@@ -266,28 +266,44 @@ h1 {
 
 /*region faq*/
 
-.more-flex{
+/*region footer*/
+
+.more-flex {
     padding: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.more-links{
+
+.more-links {
     background-color: var(--drop-dark);
 }
-.list-more{
+
+.list-more {
     color: var(--drop-light);
     font-size: 10px;
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+
 }
 
-.list-more :first-child{
+.list-more :first-child {
     font-weight: bold;
     font-size: 15px;
     padding-bottom: 10px;
 }
 
+/*end region more links*/
+
+.language {
+    background-color: var(--drop-dark);
+}
+
+.lang-selector{
+    color: var(--drop-light);
+    font-size: 8px;
+    padding-left:70px;
+    padding-bottom: 50px;
+}
