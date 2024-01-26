@@ -197,6 +197,15 @@ h1 {
     flex-direction: row;
 }
 
+.card{
+    border: 1px solid black;
+}
+
+.type-client{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
