@@ -103,7 +103,7 @@ body {
 
 .container-l {
     width: 80%;
-    max-width: 1600px;
+    max-width: 1500px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -126,7 +126,7 @@ body {
 /*region main*/
 .jumbotron {
     background-color: var(--drop-primary);
-    height: 630px;
+
 }
 
 h1 {
@@ -144,6 +144,7 @@ h1 {
 .free-trial {
     flex-grow: 1;
     padding-left: 70px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
