@@ -36,7 +36,7 @@
 :root {
     --drop-primary: #b5d1e7;
     --drop-light: #fffefe;
-    --drop-danger:#61092a;
+    --drop-danger: #61092a;
     --drop-accent: #0061ff;
     --drop-dark: #010100;
 }
@@ -52,9 +52,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.link-partner, .link-try{
+.link-partner,
+.link-try {
     text-decoration: none;
-    margin:10px;
+    margin: 10px;
     color: black;
 }
 
@@ -67,42 +68,56 @@ body {
     align-items: center;
 }
 
-.top-menu{
+.top-menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap:10px
+    gap: 10px
 }
 
-.logo{
-    padding:15px;
+.logo {
+    padding: 15px;
 }
 
-.list-row{
+.list-row {
     display: flex;
     flex-direction: row;
     text-align: center;
-    gap:15px;
+    gap: 15px;
     font-size: 13px;
 }
 
-.list-menu{
+.list-menu {
     list-style: none;
 }
 
-.link-menu{
+.link-menu {
     text-decoration: none;
     color: black;
 }
 
-.start{
+.start {
     background-color: var(--drop-accent);
-    border:0px;
+    border: 0px;
     padding: 6px;
     margin-right: 5px;
 }
 
-.link-menu-start{
+.container-l {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container-m {
+    width: 60%;
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.link-menu-start {
     text-decoration: none;
     color: white;
     margin: 6px;
@@ -116,81 +131,70 @@ body {
     height: 630px;
 }
 
-h1{
+h1 {
     font-size: 60px;
     padding: 70px;
 }
 
-.container-l{
-    width: 80%;
-    max-width: 1200px;
-    margin: auto;
-    box-sizing: border-box;
-}
-
-.container-flex{
+.container-flex {
     display: flex;
     flex-direction: row;
     gap: 10px;
     box-sizing: border-box;
 }
 
-.free-trial{
+.free-trial {
     flex-grow: 1;
     padding-left: 70px;
     display: flex;
     flex-direction: column;
-    gap:15px;
+    gap: 15px;
 }
 
-.trial{
+.trial {
     background-color: var(--drop-accent);
     color: white;
-    padding:10px;
+    padding: 10px;
     border: none;
 }
 
-.jumbo-row{
+.jumbo-row {
     font-size: 35px;
 }
 
-.imagine-g2{
+.imagine-g2 {
     flex-grow: 2;
     box-sizing: border-box;
 }
 
-.img-jumbo{
+.img-jumbo {
     display: block;
     width: 680px;
 }
+
 /*end region jumbotron*/
 
 
 /*end region bussines-plans*/
 
-.container-m{
-    width: 60%;
-    max-width: 1200px;
-    margin: auto;
-    box-sizing: border-box;
-}
 
-.img-hallway{
+
+.img-hallway {
     display: block;
     width: 500px;
-    padding:2px;
+    padding: 2px;
 }
 
-.partner{
+.partner {
     display: flex;
     flex-direction: column;
-    gap:15px;
+    gap: 15px;
     margin-top: 40px;
 }
 
-.find-partner{
+.find-partner {
     padding: 5px;
-    width:150px;
+    width: 150px;
     background-color: var(--drop-light);
     border-width: 1px;
 }
@@ -201,7 +205,7 @@ h1{
 
 /*end region more-operation*/
 
-.mile-flex{
+.mile-flex {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -209,7 +213,7 @@ h1{
     padding-bottom: 20px;
 }
 
-.about-clients{
+.about-clients {
     font-size: x-small;
 }
 
@@ -217,11 +221,11 @@ h1{
 
 /*end region company*/
 
-.try-it{
+.try-it {
     background-color: var(--drop-primary);
 }
 
-.try-flex{
+.try-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -230,13 +234,13 @@ h1{
     padding-bottom: 40px;
 }
 
-.take{
-    color:var(--drop-danger)
+.take {
+    color: var(--drop-danger)
 }
 
-.button-try{
+.button-try {
     padding: 5px;
-    width:200px;
+    width: 200px;
     background-color: var(--drop-light);
     border-width: 1px
 }
@@ -244,18 +248,46 @@ h1{
 /*end region try-it*/
 
 
-.faq-flex{
+.faq-flex {
     display: flex;
     flex-direction: column;
-    gap:25px;
+    gap: 25px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.faq-angle{
+.faq-angle {
     margin-left: 250px
 }
 
-.question{
+.question {
     font-size: 10px;
 }
+
+/*region faq*/
+
+.more-flex{
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.more-links{
+    background-color: var(--drop-dark);
+}
+.list-more{
+    color: var(--drop-light);
+    font-size: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.list-more :first-child{
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
