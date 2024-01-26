@@ -102,14 +102,14 @@ body {
 }
 
 .container-l {
-    width: 80%;
+    width: 85%;
     max-width: 1500px;
     margin: auto;
     box-sizing: border-box;
 }
 
 .container-m {
-    width: 60%;
+    width: 75%;
     max-width: 1400px;
     margin: auto;
     box-sizing: border-box;
@@ -131,7 +131,8 @@ body {
 
 h1 {
     font-size: 60px;
-    padding: 70px;
+    padding: 30px;
+    padding-top: 70px;
 }
 
 .container-flex {
@@ -143,7 +144,7 @@ h1 {
 
 .free-trial {
     flex-grow: 1;
-    padding-left: 70px;
+    padding-left: 30px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -175,12 +176,12 @@ h1 {
 
 .find-plans {
     padding-top: 100px;
-    margin-left: -20px;
+  
 }
 
 .list-type-bill {
     list-style: none;
-    font-size: 10px;
+    
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -192,29 +193,35 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    gap:20px;
+    flex-wrap: wrap;
+    
     margin-top: 40px;
-    margin-left: -20px;
+    
     margin-bottom: 70px;
+    font-size: small;
 }
 
 .card{
-    width: 251px;
+    width: 245px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0.3px solid black;
 }
 
+.card-row{
+    display: flex;
+    flex-direction: row;
+}
 .type-client{  
     display: flex;
     justify-content: center;
     align-items: center; 
     padding: 7px;
-    border-bottom: 1px solid black;
+    border-bottom: 0.3px solid black;
 }
 /*end region type-client*/
 
 .description-plan{
-    padding: 15px;
+    padding: 12px;
 }
 
 .feature{
