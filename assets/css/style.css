@@ -62,7 +62,7 @@ body {
 
 .col-4{
     width: calc((100% / 12) *4);
-    padding: 5px;
+    
 }
 
 
@@ -112,14 +112,14 @@ body {
 
 .container-l {
     width: 80%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
     box-sizing: border-box;
 }
 
 .container-m {
     width: 60%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -183,6 +183,7 @@ h1 {
 
 .find-plans {
     padding-top: 100px;
+    margin-left: -20px;
 }
 
 .list-type-bill {
@@ -191,27 +192,52 @@ h1 {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 /*end region find-plans*/
-.foralign{
-    padding: 10px;
+
+.card{
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
+
 .card-plans{
     display: flex;
     flex-direction: row;
+    gap:20px;
+    margin-top: 40px;
+    margin-left: -20px;
 }
 
-.card{
-    border: 1px solid black;
-    box-sizing: border-box;
-}
-
-.type-client{  !!!!!!!!!!!!!!!!!!
+.type-client{  
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding: 8px;
+    border-bottom: 1px solid black;
+    border-width: 100%;
 }
+
+.description-plan{
+    padding: 20px;
+
+}
+
+.feature{
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+.feature-style{
+    padding: 5px;
+    display:flex;
+    justify-content: row;
+    align-items: flex-start;
+    gap:5px;
+}
+    
 
 
 
