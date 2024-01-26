@@ -59,6 +59,10 @@ body {
     color: black;
 }
 
+.col-4{
+    width: calc((100% / 12) *4);
+}
+
 /* region header*/
 
 .menu {
@@ -186,8 +190,12 @@ h1 {
     gap: 50px;
     padding-top: 50px;
 }
-
 /*end region find-plans*/
+
+.card-plans{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
