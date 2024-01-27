@@ -193,7 +193,7 @@ h1 {
 
 /*end region find-plans*/
 
-.card-plans-col {
+.card-col {
     display: flex;
     flex-direction: row;
     align-items: stretch;
