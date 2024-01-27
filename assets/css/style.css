@@ -1,9 +1,6 @@
 /*region debug*/
 
-.debug.more-operations {
-    height: 400px;
-    background-color: coral;
-}
+
 
 
 .debug.company {
@@ -169,6 +166,7 @@ h1 {
 .imagine-g2 {
     flex-grow: 2;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 .img-jumbo {
@@ -285,14 +283,7 @@ h1 {
     color: var(--drop-accent);
 }
 
-/*end region card plans*/
-
-
-
-
 /*end region bussines-plans*/
-
-
 
 .img-hallway {
     display: block;
@@ -314,9 +305,24 @@ h1 {
     border-width: 1px;
 }
 
-
-
 /*end region enter-in-contact*/
+
+.more-operations{
+    padding-top:150px;
+    padding-bottom:150px;
+}
+.col-operations{
+    padding:4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border:none;
+}
+
+.operations-img{
+    display: block;
+    width:90%;
+}
 
 /*end region more-operation*/
 
@@ -367,12 +373,12 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top:50px;
+    padding-bottom: 50px;
 }
 
 .faq-angle {
-    margin-left: 250px
+    margin-left: 450px
 }
 
 .question {
@@ -384,7 +390,8 @@ h1 {
 /*region footer*/
 
 .more-flex {
-    padding: 70px;
+    padding-top:70px;
+    padding-bottom:70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -419,6 +426,5 @@ h1 {
 .lang-selector {
     color: var(--drop-light);
     font-size: 8px;
-    padding-left: 70px;
     padding-bottom: 50px;
 }
