@@ -43,6 +43,20 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container-l {
+    width: 85%;
+    max-width: 1500px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.container-m {
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
 .link-partner,
 .link-try {
     text-decoration: none;
@@ -51,10 +65,12 @@ body {
 }
 
 
-.col-4{
+.col-4 {
     width: calc((100% / 12) *4);
-    
+    box-sizing: border-box;
+    border: 0.3px solid black;
 }
+
 
 
 /* region header*/
@@ -101,19 +117,7 @@ body {
     margin-right: 5px;
 }
 
-.container-l {
-    width: 85%;
-    max-width: 1500px;
-    margin: auto;
-    box-sizing: border-box;
-}
 
-.container-m {
-    width: 75%;
-    max-width: 1400px;
-    margin: auto;
-    box-sizing: border-box;
-}
 
 .link-menu-start {
     text-decoration: none;
@@ -176,93 +180,112 @@ h1 {
 
 .find-plans {
     padding-top: 100px;
-  
+
 }
 
 .list-type-bill {
     list-style: none;
-    
     display: flex;
     flex-direction: row;
     gap: 50px;
     padding-top: 35px;
 }
+
 /*end region find-plans*/
 
-.card-plans{
+.card-plans-col {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    flex-wrap: wrap;
-    
+    flex-wrap: nowrap;
+    gap: 20px;
     margin-top: 40px;
-    
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     font-size: small;
 }
 
-.card{
-    width: 245px;
+.card-plans-row {
+    padding-bottom: 150px;
+}
+
+.col-12 {
+    width: 100%;
     box-sizing: border-box;
     border: 0.3px solid black;
 }
 
-.card-row{
+.description-col-12 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: small;
 }
-.type-client{  
+
+.type-client {
     display: flex;
     justify-content: center;
-    align-items: center; 
-    padding: 7px;
+    align-items: center;
+    padding: 6px;
     border-bottom: 0.3px solid black;
 }
-/*end region type-client*/
 
-.description-plan{
-    padding: 12px;
+.description-plan {
+    padding: 15px;
 }
 
-.feature{
+.description-team {
+    padding-top: 50px;
+}
+
+.feature {
     list-style: none;
     padding-top: 30px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
 
-.feature-style{
+.feature-style {
     padding: 5px;
-    display:flex;
+    display: flex;
     justify-content: row;
     align-items: flex-start;
-    gap:5px;
+    gap: 5px;
 }
 
-.try-card{
+.try-card {
     background-color: var(--drop-accent);
-    padding:8px;
+    padding: 8px;
     padding-left: 35px;
     padding-right: 35px;
     border: 0px;
     margin-bottom: 15px;
 }
 
-.linkcard{
+.try-card-azienda {
+    background-color: var(--drop-accent);
+    padding: 8px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 0px;
+    margin-bottom: 15px;
+}
+
+.linkcard {
     text-decoration: none;
     color: var(--drop-light);
 }
-    
-.card-line{
+
+.card-line {
     width: 60px;
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.fa-check{
+.fa-check {
     color: var(--drop-accent);
 }
 
-/*end region description plans*/
+/*end region card plans*/
 
 
 
