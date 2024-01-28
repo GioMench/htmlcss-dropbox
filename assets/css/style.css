@@ -334,7 +334,6 @@ h1 {
 
 .col-3 {
     width: calc(100% / 3);
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -343,26 +342,19 @@ h1 {
 .col-2 {
     width: calc(100% / 2);
     height: calc(100% / 2);
-    border: 1px solid black;
     box-sizing: border-box;
-
-}
-
-
-
-.company-flex {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
 }
-
 
 .company-img {
     display: block;
-    width: 90px;
+    width: 100px;
     padding: 10px;
     padding-top: 70px;
     padding-bottom: 70px;
+    filter: invert(100%)
 }
 
 .designit {
@@ -373,33 +365,48 @@ h1 {
     background-color: var(--drop-asu);
 }
 
-.florida{
+.florida {
     background-color: var(--drop-uf);
 }
 
-.topps{
+.topps {
     background-color: var(--drop-topps);
 }
 
-.big-designit{
-    background-color: ;
-}
-
-.bicycle{
+.bicycle {
     background-color: var(--drop-bicycle);
 }
 
-.hearts{
+.hearts {
     background-color: var(--drop-primary);
 }
 
-.lonely{
+.lonely {
     background-color: var(--drop-lonely);
 }
 
-.clear{
+.clear {
     background-color: var(--drop-clear);
 }
+
+.big-designit {
+    background-color: var(--drop-des-center);
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.company-big {
+    padding: 20px;
+    width: 240px;
+}
+
+.description-comp-big{
+
+    font-size: small;
+    padding: 20px;
+}
+
 /*end region company*/
 
 .try-it {
