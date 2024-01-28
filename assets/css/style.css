@@ -27,14 +27,14 @@ body {
 }
 
 .container-l {
-    width: 85%;
+    width: 80%;
     max-width: 1500px;
     margin: auto;
     box-sizing: border-box;
 }
 
 .container-m {
-    width: 80%;
+    width: 70%;
     max-width: 1400px;
     margin: auto;
     box-sizing: border-box;
