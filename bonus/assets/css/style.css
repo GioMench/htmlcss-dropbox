@@ -26,6 +26,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 1100px;
 }
 
 .container-l {
@@ -403,7 +404,7 @@ h1 {
     width: 240px;
 }
 
-.description-comp-big{
+.description-comp-big {
 
     font-size: small;
     padding: 20px;
@@ -508,12 +509,41 @@ html {
     scroll-behavior: smooth;
 }
 
-.fa-arrow-down{
+.fa-arrow-down {
     color: black;
 }
 
-.fa-arrow-down:hover{
+.fa-arrow-down:hover {
     color: var(--drop-light);
+}
+
+div#menu-trans a {
+    display: block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+div#menu-trans a:hover {
+    color: var(--drop-accent);
+    text-decoration: none;
+}
+
+
+div#menu-trans li ul {
+    display: none
+}
+
+div#menu-trans li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 0 -1px;
+    list-style: none;
+    text-align: start;
+    background: white;
 }
 
 
