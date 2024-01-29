@@ -547,4 +547,9 @@ div#menu-trans li:hover ul {
 }
 
 
+button:hover{
+    opacity: 0.75;
+}
 
+
+    
